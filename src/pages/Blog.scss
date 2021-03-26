@@ -1,0 +1,24 @@
+@import "../../../scss/index.scss";
+
+.container {
+   
+
+    &__content{
+        // margin: 4px 16px 0 !important;
+    }
+    
+    &__publicidad{
+        
+       
+    }
+    .ant-col {
+        width: 100%;
+        background-color: blue !important;
+    }
+
+    &__post{
+        background-color: blue !important;
+    }
+}
+
+

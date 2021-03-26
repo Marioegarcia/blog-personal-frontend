@@ -1,0 +1,14 @@
+@import "../../../scss/index.scss";
+
+.nivel {
+    background-color: turquoise !important;
+    .ant-layout-header {
+        background: transparent !important;
+    }
+
+    
+    .ant-layout-content{
+        background-color: violet !important;
+       // height: 100vh !important;
+    }
+}

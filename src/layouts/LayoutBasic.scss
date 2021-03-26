@@ -1,0 +1,46 @@
+@import "../scss/index.scss";
+
+.ant-layout-header{
+ padding: 0px !important;
+ 
+
+}
+
+.ant-menu-horizontal {
+  width: 100% !important;
+  //background-color: #FFF5ED !important;
+}
+
+
+
+.container {
+  background-color: $base-2 !important;
+  margin: 0% !important;
+  padding: 0px !important;
+}
+
+.sider {
+ 
+ background: $base-3 !important;
+ .ant-menu {
+  background: $base-3 !important;
+ }
+
+}
+
+.ant-layout-sider-zero-width-trigger{
+ // overflow: hidden !important;
+  display: none !important;
+  
+
+}
+
+// .container{
+//   background: $base-2 !important;
+//   padding: 0px !important;
+  
+// }
+
+.footer-basic {
+  background: $base-2 !important;
+}

@@ -1,0 +1,71 @@
+@import "../../../scss/index.scss";
+
+.courses-list {
+ // border: 5px solid rgb(190, 37, 37) !important;
+  &__course {
+    
+    //border: 3px solid rgb(47, 37, 190) !important;
+    padding: 5px !important;
+    .ant-card {
+      
+      padding: 0px !important;
+      border: 1px solid rgb(78, 211, 61) !important;
+      
+    }
+
+    .ant-card-meta-title {
+    //   color: $font-light;
+      font-weight: bold;
+      
+    }
+
+    .ant-card-meta-description {
+      color: $primary-color-dark;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 30px;
+      background-color: $primary-color-light;
+      color: $font-light;
+      border: 0;
+      font-weight: bold;
+      font-size: 15px;
+      height: 40px;
+      text-transform: uppercase;
+    }
+
+    &-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+
+      span {
+        // color: $font-light;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.tarjeta{
+  
+  
+ 
+}
+
+
+// <Card key={ultimo.id}>
+// <Meta 
+// title={ultimo.title} 
+
+// />
+// {/* <Button>Entrar en el curso</Button> */}
+// <div className="courses-list__course-footer">
+//   {/* <span>{course.price ? `${course.price} €` : courseInfo.price}</span> */}
+//   <div>
+//     {/* <Rate disabled defaultValue={5} /> */}
+//   </div>
+// </div>
+// </Card>
